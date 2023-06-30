@@ -1,0 +1,303 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-accueil {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.h1-accueil {
+  font-size: 80px;
+}
+
+.h2-accueil {
+  padding-bottom: 20px;
+  color: #389c8b;
+}
+
+.h2-academie {
+  color: #389c8b;
+  font-size: 54px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.h3-accueil {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  color: #389c8b;
+}
+
+.btn-accueil {
+  background-color: #389c8b;
+  border: none;
+  border-radius: 20px;
+  padding: 8px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  width: 400px;
+}
+
+.btn-accueil:hover { 
+  box-shadow: rgba(3, 158, 130, 0.45) 0px 5px 15px;
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+
+.btn-accueil2 {
+  background-color: #9a7362;
+  border: none;
+  border-radius: 20px;
+  padding: 8px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  width: 400px;
+}
+
+.btn-accueil2:hover { 
+  box-shadow: rgba(154, 115, 98, 0.45) 0px 5px 15px;
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+
+.a-accueil {
+  text-decoration: none;
+}
+
+.a-accueil:hover  {
+  text-decoration: none;
+  color: #9a7362;
+  font-weight: bold;
+}
+
+.a-footer:hover {
+text-decoration: none;
+font-weight: bold;
+color: #fff;
+}
+
+.part-1 { 
+  display: flex;
+  background-image: url(https://diapasonia.com/wp-content/uploads/2022/05/accueil-header.png);
+  background-repeat: no-repeat; 
+  background-size: contain; 
+  background-color: transparent;
+  background-size: cover;
+}
+
+.btn-header {
+  display: flex;
+  flex-direction: column;
+  max-width: 140px;
+  margin-top: 340px;
+  padding: 0px 0px 30px 25px;
+}
+
+.pad-bottom {
+  margin-bottom: 15px;
+}
+
+.pad-bottom_2 {
+  margin-bottom: 42px;
+}
+
+.p-title {
+  margin-bottom: 30px;
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+.img_logo_diapasonia_accueil {
+  display: flex;
+  justify-content: center;
+  margin-top: -54px;
+}
+
+.img-diapasonia_2 {
+  width: 370px;
+  height: 108px;
+}
+
+.part-academie {
+  margin-top: 40px;
+}
+
+.part-academie_haut {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.part-academie_bas {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.academie_img_padding {
+  padding-right: 40px;
+}
+
+.academie_img:hover {
+    box-shadow: rgba(255, 255, 255, 255) 0px 0px 0px;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.part-2 {
+  max-height: auto;
+  display: flex;
+}
+
+.grid {
+  max-width: 600px;
+  height: auto;
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+margin-left: 100px;
+}
+
+.grid-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-right-grid {
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  padding: 0px 30px 0px 30px;
+}
+
+.p-grid {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.img-diapasonia {
+  width: 350px;
+  height: 168px;
+}
+
+.img-certif {
+  width: 600px;
+  height: 162px;
+}
+
+.part-3 {
+  max-height: auto;
+  max-width: auto;
+  background-image: url(https://diapasonia.com/wp-content/uploads/2022/05/arriere_plan.png);
+  background-repeat: no-repeat; 
+  background-size: contain; 
+  background-color: transparent;
+  background-size: cover;
+}
+
+.contacts {
+  max-width: 250px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.p-part-3 {
+  padding-bottom: 15px;
+}
+
+.brown {
+  color: #9a7362;
+}
+
+.part-4 {
+  display: flex;
+  max-height: auto;
+  max-width: auto;
+}
+
+.text-app {
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  padding: 0px 30px 0px 30px;
+}
+
+.img-app {
+  width: 200px;
+  height: 100px;
+}
+
+.img-app-space {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-app-right {
+  width: 580px;
+  height: 580px;
+  padding-top: 30px;
+}
+
+.part-5 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  max-height: auto;
+}
+
+.reseau-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reseau-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reseau-3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.link-reseaux {
+  color: #000;
+}
+
+.img-reseaux {
+  width: 80px;
+  height: 80px;
+}
+
+.img-reseaux:hover {
+  box-shadow: rgba(255, 255, 255, 255) 0px 0px 0px;
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+
+.footer-accueil {
+  background-color: #9a7362;
+  text-align: center;
+  padding: 12px;
+}
+
+.link-footer {
+  color: #fff;
+  font-size: 25px;
+}
